@@ -1,0 +1,126 @@
+/* custom-style.css */
+
+/* Body and header styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  margin-right: 10px;
+}
+
+/* Main section styles */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+/* Registration Form styles */
+#registrationForm {
+  display: block;
+}
+
+#registrationForm h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#registrationForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#registrationForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#registrationForm button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Goal Tracking Section styles */
+#goalSection {
+  display: none;
+}
+
+#goalSection h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#goalSection form {
+  margin-bottom: 20px;
+}
+
+#goalSection input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#goalSection button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Suggestions Section styles */
+#suggestionsSection {
+  display: none;
+}
+
+#suggestionsSection h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#suggestionsSection button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Goal Progress styles */
+#goalProgress {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
